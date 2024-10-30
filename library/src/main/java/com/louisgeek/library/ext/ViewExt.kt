@@ -17,10 +17,10 @@ fun View.hideKeyboard() {
 
 }
 
-fun View.setTagHolder(tag: Any) {
-    this.setTag(R.id.id_view_tag_holder, tag)
-}
-
-fun View.getTagHolder(): Any? {
-    return this.getTag(R.id.id_view_tag_holder)
-}
+//fun View.setTagHolder(tag: Any) {
+//    this.setTag(R.id.id_view_tag_holder, tag)
+//}
+//
+//fun View.getTagHolder(): Any? {
+//    return this.getTag(R.id.id_view_tag_holder)
+//}
