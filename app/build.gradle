@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace 'com.louis.lg_library'
-    compileSdk 34
+    compileSdk 35
 
     defaultConfig {
         applicationId "com.louis.lg_library"
         minSdk 24
-        targetSdk 34
+        targetSdk 35
         versionCode 1
         versionName "1.0"
 
