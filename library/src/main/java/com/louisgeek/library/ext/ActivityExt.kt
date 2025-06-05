@@ -5,7 +5,7 @@ import androidx.core.app.TaskStackBuilder
 import androidx.fragment.app.FragmentActivity
 
 /**
- * Created by zhufangquan on 2021/11/18.
+ * Created by louisgeek on 2021/11/18.
  */
 fun FragmentActivity.navigationUpClick() {
     //clear  fragments  first

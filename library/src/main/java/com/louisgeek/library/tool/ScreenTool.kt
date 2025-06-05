@@ -3,7 +3,7 @@ package com.louisgeek.library.tool
 import android.content.res.Resources
 
 /**
- * Created by zhufangquan on 2021/11/10.
+ * Created by louisgeek on 2021/11/10.
  */
 
 object ScreenTool {

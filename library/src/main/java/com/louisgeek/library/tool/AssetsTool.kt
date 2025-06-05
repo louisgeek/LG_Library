@@ -7,7 +7,7 @@ import java.io.FileOutputStream
 import java.io.InputStream
 
 /**
- * Created by zhufangquan on 2021/11/2.
+ * Created by louisgeek on 2021/11/2.
  */
 object AssetsTool {
     private const val TAG = "AssetsTool"

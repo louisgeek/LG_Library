@@ -5,7 +5,7 @@ import androidx.fragment.app.FragmentManager
 import com.louisgeek.library.tool.ReflectTool
 
 /**
- * Created by zhufangquan on 2021/11/12.
+ * Created by louisgeek on 2021/11/12.
  */
 
 fun DialogFragment.showAllowingStateLoss(manager: FragmentManager, tag: String) {

@@ -4,7 +4,7 @@ import android.content.res.Resources
 import android.util.TypedValue
 
 /**
- * Created by zhufangquan on 2021/11/4.
+ * Created by louisgeek on 2021/11/4.
  */
 object SizeTool {
     fun dp2px(px: Int): Int {

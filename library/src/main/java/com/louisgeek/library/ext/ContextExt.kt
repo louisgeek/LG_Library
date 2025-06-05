@@ -9,7 +9,7 @@ import android.widget.Toast
 import com.louisgeek.library.tool.ToastTool
 
 /**
- * Created by zhufangquan on 2021/11/10.
+ * Created by louisgeek on 2021/11/10.
  */
 fun Context.toast(text: CharSequence?, duration: Int = Toast.LENGTH_SHORT) {
     if (text.isNullOrEmpty()) {

@@ -6,7 +6,7 @@ import android.view.inputmethod.InputMethodManager
 import com.louisgeek.library.R
 
 /**
- * Created by zhufangquan on 2021/11/15.
+ * Created by louisgeek on 2021/11/15.
  */
 fun View.hideKeyboard() {
     val imm = context.getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager

@@ -6,7 +6,7 @@ import android.os.Environment
 import android.os.StatFs
 
 /**
- * Created by zhufangquan on 2021/8/24.
+ * Created by louisgeek on 2021/8/24.
  *
  * 逻辑上的内部存储,总是可用的
  *

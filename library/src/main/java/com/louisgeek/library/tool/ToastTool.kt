@@ -5,7 +5,7 @@ import android.view.Gravity
 import android.widget.Toast
 
 /**
- * Created by zhufangquan on 2021/11/12.
+ * Created by louisgeek on 2021/11/12.
  */
 object ToastTool {
     private var toast: Toast? = null

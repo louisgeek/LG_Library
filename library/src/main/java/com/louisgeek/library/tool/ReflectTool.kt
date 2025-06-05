@@ -1,7 +1,7 @@
 package com.louisgeek.library.tool
 
 /**
- * Created by zhufangquan on 2021/11/10.
+ * Created by louisgeek on 2021/11/10.
  */
 object ReflectTool {
     fun setFieldValueForSuperClass(tClass: Class<*>, obj: Any, fieldName: String, value: Any) {

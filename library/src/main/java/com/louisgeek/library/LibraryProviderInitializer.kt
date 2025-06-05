@@ -7,7 +7,7 @@ import com.tencent.mmkv.MMKV
 import java.util.*
 
 /**
- * Created by zhufangquan on 2021/11/2.
+ * Created by louisgeek on 2021/11/2.
  */
 internal class LibraryProviderInitializer : Initializer<LibraryProvider> {
     companion object {
