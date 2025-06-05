@@ -1,4 +1,4 @@
-package com.louis.lg_library.ext
+package com.louisgeek.library.ext
 
 import android.util.TypedValue
 import android.widget.TextView

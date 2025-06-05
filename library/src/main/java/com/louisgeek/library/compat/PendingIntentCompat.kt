@@ -1,4 +1,4 @@
-package com.louis.lg_library.compat
+package com.louisgeek.library.compat
 
 import android.app.PendingIntent
 import android.content.Context

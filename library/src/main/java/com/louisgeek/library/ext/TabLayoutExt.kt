@@ -1,4 +1,4 @@
-package com.louis.lg_library.ext
+package com.louisgeek.library.ext
 
 import androidx.annotation.StringRes
 import com.google.android.material.tabs.TabLayout

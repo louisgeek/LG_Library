@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-package com.louis.lg_library.data
+package com.louisgeek.library.data
 
 import android.util.Log
 import androidx.annotation.MainThread

@@ -1,4 +1,4 @@
-package com.louis.lg_library.text
+package com.louisgeek.library.text
 
 import android.text.InputFilter
 import android.text.Spanned

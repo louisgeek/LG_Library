@@ -1,4 +1,4 @@
-package com.louis.lg_library.ext
+package com.louisgeek.library.ext
 
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
