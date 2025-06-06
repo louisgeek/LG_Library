@@ -11,7 +11,7 @@ import java.util.*
  */
 internal class LibraryProviderInitializer : Initializer<LibraryProvider> {
     companion object {
-        private const val TAG = "LPInitializer"
+        private const val TAG = "LibraryProviderInit"
     }
 
     override fun create(context: Context): LibraryProvider {
