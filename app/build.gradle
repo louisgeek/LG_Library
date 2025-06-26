@@ -45,6 +45,7 @@ dependencies {
 //    implementation 'androidx.navigation:navigation-ui:2.7.7'
 
     implementation project(':library')
+//    implementation 'com.github.louisgeek:LG_Library:v1.0.0'
 
     testImplementation libs.junit
     androidTestImplementation libs.androidx.junit
