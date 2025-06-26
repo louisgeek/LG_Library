@@ -48,13 +48,17 @@ dependencies {
     androidTestImplementation libs.androidx.espresso.core
 }
 
+//group = 'com.github.louisgeek'
+group = 'com.louisgeek'
+version = '1.0.0'
+
 publishing {
     publications {
         //定义一个名为 release 的发布内容
         release(MavenPublication) {
-            groupId = 'com.louisgeek'
+            groupId = group
             artifactId = 'library'
-            version = '1.0.0'
+            version = version
 
 //            artifact(bundleReleaseAar)
 
