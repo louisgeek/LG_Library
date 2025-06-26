@@ -1,11 +1,13 @@
 package com.louisgeek.library.ext
 
+import android.Manifest
 import android.content.Context
 import android.media.RingtoneManager
 import android.os.Build
 import android.os.VibrationEffect
 import android.os.Vibrator
 import android.widget.Toast
+import androidx.annotation.RequiresPermission
 import com.louisgeek.library.tool.ToastTool
 
 /**
@@ -19,6 +21,7 @@ fun Context.toast(text: CharSequence?, duration: Int = Toast.LENGTH_SHORT) {
 }
 
 //500  100
+@RequiresPermission(Manifest.permission.VIBRATE)
 fun Context.vibrator(milliseconds: Long = 100) {
     val vibrator = getSystemService(Context.VIBRATOR_SERVICE) as Vibrator
     if (Build.VERSION.SDK_INT >= 26) {

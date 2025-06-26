@@ -5,6 +5,9 @@ import android.util.Log
 import android.view.SurfaceHolder
 import java.util.concurrent.CopyOnWriteArrayList
 
+/**
+ * Created by louisgeek on 2019/4/25.
+ */
 abstract class BasePlayer(private val holder: SurfaceHolder?) : IPlayer {
     companion object {
         private const val TAG = "BasePlayer"

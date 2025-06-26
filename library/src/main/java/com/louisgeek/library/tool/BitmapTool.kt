@@ -11,7 +11,6 @@ import androidx.annotation.ColorInt
  */
 object BitmapTool {
 
-
     fun drawableToBitmap(drawable: Drawable): Bitmap {
         val width = drawable.intrinsicWidth
         val height = drawable.intrinsicHeight

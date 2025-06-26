@@ -1,5 +1,8 @@
 package com.louisgeek.library.player
 
+/**
+ * Created by louisgeek on 2019/4/25.
+ */
 interface IPlayListener {
     fun onStart()
     fun onPause()

@@ -36,17 +36,17 @@ import java.util.concurrent.atomic.AtomicBoolean
  *
  *
  * SingleLiveEvent class from https://github.com/android/architecture-samples
+ * 一个只会触发一次数据更新的 LiveData，适用于只需要一个观察者接收一次更新的场景（如果是存在多个观察者，只有一个能够正常收到通知）
  */
-class SingleLiveData<T> : MutableLiveData<T>() {
+class SingleLiveEvent<T> : MutableLiveData<T>() {
     companion object {
-        private const val TAG = "SingleLiveData"
+        private const val TAG = "SingleLiveEvent"
     }
 
-    private val pending = AtomicBoolean(false)
+    private val pending = AtomicBoolean(false) //pending 即将发生的
 
     @MainThread
     override fun observe(owner: LifecycleOwner, observer: Observer<in T>) {
-
         if (hasActiveObservers()) {
 //            Timber.w("Multiple observers registered but only one will be notified of changes.")
             Log.w(TAG, "Multiple observers registered but only one will be notified of changes.")
@@ -54,7 +54,9 @@ class SingleLiveData<T> : MutableLiveData<T>() {
 
         // Observe the internal MutableLiveData
         super.observe(owner) {
+            //expectedValue 预期值 true，最终设置成 false
             if (pending.compareAndSet(true, false)) {
+                //compareAndSet 操作成功
                 observer.onChanged(it)
             }
         }
@@ -62,6 +64,7 @@ class SingleLiveData<T> : MutableLiveData<T>() {
 
     @MainThread
     override fun setValue(value: T?) {
+        //设置成 true
         pending.set(true)
         super.setValue(value)
     }

@@ -5,7 +5,6 @@ import com.tencent.mmkv.MMKV
 /**
  * Created by louisgeek on 2021/10/8.
  */
-
 object KVTool {
     fun getBoolean(key: String, defaultValue: Boolean = false): Boolean {
         return MMKV.defaultMMKV().decodeBool(key, defaultValue)

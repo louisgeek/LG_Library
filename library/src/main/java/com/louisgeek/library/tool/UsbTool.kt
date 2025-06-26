@@ -8,6 +8,9 @@ import android.hardware.usb.UsbDevice
 import android.util.Log
 import androidx.core.content.ContextCompat
 
+/**
+ * Created by louisgeek on 2021/11/12.
+ */
 object UsbTool {
     private const val TAG = "UsbTool"
     fun requestUsbPermissionCompat(

@@ -1,5 +1,6 @@
 package com.louisgeek.library.compat
 
+import android.annotation.SuppressLint
 import android.app.PendingIntent
 import android.content.Context
 import android.content.Intent
@@ -9,6 +10,7 @@ import android.os.Build
  * Created by louisgeek on 2022/5/19.
  */
 class PendingIntentCompat {
+    @SuppressLint("MutableImplicitPendingIntent")
     fun getBroadcast(context: Context, action: String): PendingIntent {
         val intent = Intent(action)
         return if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
