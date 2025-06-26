@@ -11,10 +11,10 @@ class MainActivity : AppCompatActivity() {
     private val TAG = "MainActivity"
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(com.louisgeek.library.R.layout.activity_main)
+        setContentView(R.layout.activity_main)
 
 
-        findViewById<View>(com.louisgeek.library.R.id.tv).setOnClickListener {
+        findViewById<View>(R.id.tv).setOnClickListener {
 
 
             val callable = object : Callable<String> {
